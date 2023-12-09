@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+a {
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+}
+
+.tag-1 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+input[type=text] {
+  background: lightblue;
+  border-radius: 6px;
+}
+
+#product {
+  width: 300px;
+  height: 40px;
+  color: black;
+}
+
+.tag {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+
+.tag-2 {
+  width: 850px;
+  height: 450px;
+  margin-top: 15px;
+}
+
+img {
+  width: 850px;
+  height: 450px;
+}
+
+.tag-3 {
+  font-size: 45px;
+  position: absolute;
+  top: 120px;
+  left: 980px;
+}
+
+.tag-4 {
+  font-size: 30px;
+  position: absolute;
+  top: 220px;
+  left: 950px;
+  width: 500px;
+}
+
+.tag-5 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tag-6 {
+  position: relative;
+  width: 400px;
+  height: 380px;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+.picture {
+  width: 400px;
+  height: 265px;
+  border-radius: 10px;
+}
+
+.picture-1 {
+  width: 397px;
+  height: 265px;
+  border-radius: 10px;
+}
+
+.picture-2 {
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.text-1 {
+  font-size: 22px;
+}
+
+.text-2 {
+  font-size: 19px;
+}
+
+.text-3 {
+  font-size: 19px;
+  color: red;
+}
+
+#clothe {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  left: 200px;
+  background: linear-gradient(90deg, rgb(38, 222, 41) 18%, rgb(31, 211, 41) 45%, rgb(33, 255, 0) 100%);
+}/*# sourceMappingURL=global.css.map */
