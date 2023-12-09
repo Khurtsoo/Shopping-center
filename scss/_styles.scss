@@ -1,0 +1,113 @@
+body {
+    padding: 30px;
+}
+
+a {
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+.tag-1 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+input[type=text] {
+    background: lightblue;
+    border-radius: 6px;
+}
+// input[type=text] .hover {
+   
+// }
+#product {
+    width: 300px;
+    height: 40px;
+    // border: none;
+    color: black;
+}
+.tag {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.tag-2 {
+    width: 850px;
+    height: 450px;
+    margin-top: 15px;
+}
+
+img {
+    width: 850px;
+    height: 450px;
+}
+.tag-3 {
+    font-size: 45px;
+    position: absolute;
+    top: 120px;
+    left: 980px;
+
+}
+.tag-4 {
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 950px;
+    width: 500px;
+    
+}
+
+.tag-5 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tag-6 {
+    position: relative;
+    width: 400px;
+    height: 380px;
+    border: 1px solid black;
+    margin-top: 15px;
+
+}
+.picture {
+    width: 400px;
+    height: 265px;
+    border-radius: 10px;
+}
+.picture-1 {
+    width: 397px;
+    height: 265px;
+    border-radius: 10px;
+}
+.picture-2 {
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.text-1 {
+    font-size: 22px;
+
+
+}
+   
+
+.text-2 {
+
+    font-size: 19px;
+
+}
+.text-3 {
+
+    font-size: 19px;
+    color: red;
+
+}
+#clothe {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 200px;
+    background: linear-gradient(90deg, rgba(38,222,41,1) 18%, rgba(31,211,41,1) 45%, rgba(33,255,0,1) 100%);
+}
