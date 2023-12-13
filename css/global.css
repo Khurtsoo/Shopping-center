@@ -65,9 +65,11 @@ body {
 }
 
 a {
-  font-size: 22px;
+  font-size: 30px;
   color: black;
   cursor: pointer;
+  text-decoration: none;
+  font-family: "Whisper", cursive;
 }
 
 .tag-1 {
@@ -84,6 +86,7 @@ input[type=text] {
 #product {
   width: 300px;
   height: 40px;
+  border: none;
   color: black;
 }
 
@@ -105,18 +108,20 @@ img {
 }
 
 .tag-3 {
-  font-size: 45px;
+  font-size: 50px;
   position: absolute;
   top: 120px;
   left: 980px;
+  font-family: "Whisper", cursive;
 }
 
 .tag-4 {
-  font-size: 30px;
+  font-size: 35px;
   position: absolute;
-  top: 220px;
+  top: 240px;
   left: 950px;
   width: 500px;
+  font-family: "Whisper", cursive;
 }
 
 .tag-5 {
@@ -145,14 +150,14 @@ img {
 
 .text-2 {
   position: absolute;
-  bottom: 15px;
-  left: 180px;
+  bottom: -5px;
+  left: 170px;
   font-size: 19px;
 }
 
 .text-3 {
   position: absolute;
-  bottom: 12px;
+  bottom: -5px;
   right: 120px;
   font-size: 19px;
   color: red;
@@ -218,4 +223,10 @@ li {
 .photo-3 {
   width: 20px;
   height: 20px;
+}
+
+#carouselExampleIndicators {
+  width: 800px;
+  margin-left: 400px;
+  margin-top: 25px;
 }/*# sourceMappingURL=global.css.map */
