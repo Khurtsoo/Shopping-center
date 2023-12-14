@@ -24,15 +24,20 @@
 }
 .tag-14 {
     display: flex;
-    
+    justify-content: space-around;
+    flex-wrap: wrap;
     position: relative;
-    width: 300px;
-    height: 400px;
+ 
+    min-height: 400px;
   
 }
 .photo-4 {
     width: 300px;
     height: 200px;
+}
+.tag-15 {
+    width: 300px;
+
 }
 .tag-16 {
     font-size: 25px;

@@ -3,17 +3,18 @@ body {
 }
 
 
-a {
-    font-size: 30px;
-    color: black;
-    cursor: pointer;
-    text-decoration: none; 
-    font-family: 'Whisper', cursive;
-}
+
 .tag-1 {
     width: 1000px;
     display: flex;
     justify-content: space-around;
+    a {
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+        text-decoration: none; 
+        font-family: 'Whisper', cursive;
+    }
 }
 input[type=text] {
     background: rgb(228, 220, 220);
