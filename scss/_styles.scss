@@ -16,12 +16,12 @@ a {
     justify-content: space-around;
 }
 input[type=text] {
-    background: lightblue;
+    background: rgb(228, 220, 220);
     border-radius: 6px;
 }
-// input[type=text] .hover {
-   
-// }
+input[type=text] .hover {
+   color: black;
+}
 #product {
     width: 300px;
     height: 40px;
@@ -71,7 +71,7 @@ img {
     position: relative;
     width: 400px;
     height: 380px;
-    border: 1px solid black;
+    // border: 1px solid black;
     margin-top: 15px;
 
 }
@@ -161,4 +161,52 @@ li{
     width: 800px;
     margin-left: 400px;
     margin-top: 25px;
+}
+
+
+@media (max-width: 1024px) {
+    i {
+        position: absolute;
+        top: 80px;
+        font-size: 24px;
+    } 
+    .tag-2 {
+        width: 600px;
+        height: 400px;
+    }
+    .picture1 {
+        width: 600px;
+        height: 400px;
+    }
+    .tag-3 {
+        left: 650px;
+        font-size: 35px;
+        width: 280px;
+    }
+    .tag-4 {
+        left: 650px;
+        font-size: 30px;
+        width: 300px;
+    }
+
+    #carouselExampleIndicators {
+        margin-left: 20px;
+    }
+    #code-1 {
+        margin-left: -35px;
+    }
+    #code-2 {
+        top: 45px;
+        left: 10px;
+    }
+    #code-3 {
+        top: 75px;
+        left: 7px;
+    }
+    #code-4 {
+        top: 120px;
+        left: 7px;
+    }
+
+  
 }
