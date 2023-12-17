@@ -84,3 +84,15 @@
     left: 1100px;
     top: 240px;
 }
+
+@media (max-width: 1024px){
+    .code-7 {
+        width: 800px;
+        height: 400px;
+        margin-left: 60px;
+    }
+    .code-8 {
+        left: 310px;
+        top: 190px
+    }
+}
