@@ -124,7 +124,7 @@ footer {
 }
 li {
     color: white;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .tag-8 {
@@ -169,7 +169,7 @@ li{
     i {
         position: absolute;
         top: 80px;
-        font-size: 24px;
+        font-size: 18px;
     } 
     .tag-2 {
         width: 600px;
@@ -205,9 +205,104 @@ li{
         left: 7px;
     }
     #code-4 {
-        top: 120px;
+        top: 105px;
         left: 7px;
     }
 
+    #code-5 {
+        top: 135px;
+        left: 7px;
+    }
   
+}
+@media (max-width: 768px) {
+    a {
+        font-size: 15px;
+    }
+    #code-1 {
+        margin-left: -25px;
+
+    }
+
+    #product {
+        width: 100px;
+    }
+    .tag-2 {
+        width: 400px;
+        height: 250px;
+    }
+    .picture1 {
+        width: 400px;
+        height: 250px;
+    }
+    .tag-3 {
+        font-size: 25px;
+        left: 460px;
+    }
+    .tag-4 {
+        left: 440px;
+        font-size: 19px;
+    }
+
+    #carouselExampleIndicators {
+        width: 600px;
+        min-height: 400px;
+    }
+
+    .tag-8 {
+        left: 60px;
+    }
+    .tag-9 {
+        left: 150px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .tag {
+        display: block;
+    }
+    #product {
+        width: 200px;
+    }
+    .tag-1 {
+        display: none;
+    }
+    #something {
+        display: none;
+    }
+    .tag-2 {
+        width: 200px;
+        height: 150px;
+    }
+    .picture1 {
+        width: 200px;
+        height: 150px;
+    }
+    .tag-3 {
+        font-size: 18px;
+        left: 230px;
+        width: 170px;
+    }
+    .tag-4 {
+        left: 235px;
+        font-size: 15px;
+        width: 200px;
+        top: 180px;
+    }
+    #carouselExampleIndicators {
+        width: 400px;
+        min-height: 200px;
+    }
+
+    .tag-8 {
+        left: 10px;
+    }
+    .tag-9 {
+        left: 100px; 
+    }
+    .tag-10 {
+        width: 200px;
+        left: 200px;
+    }
+
 }
