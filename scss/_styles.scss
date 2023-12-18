@@ -2,6 +2,9 @@ body {
     padding: 30px;
 }
 
+.must:hover  {
+    transform: translateY(3px);
+}
 
 
 .tag-1 {
@@ -16,12 +19,12 @@ body {
         font-family: 'Whisper', cursive;
     }
 }
-input[type=text] {
+#product {
     background: rgb(228, 220, 220);
     border-radius: 6px;
 }
-input[type=text] .hover {
-   color: black;
+#product:hover {
+   background-color: rgb(196, 182, 182);
 }
 #product {
     width: 300px;
@@ -29,9 +32,7 @@ input[type=text] .hover {
     border: none;
     color: black;
 }
-// form {
-//     background-color: lightblue;   
-// }
+
 .tag {
     display: flex;
     margin-top: 40px;
