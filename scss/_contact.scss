@@ -34,15 +34,9 @@
     left: 100px;
 }
 .code-7 {
-    width: 1300px;
-    height: 600px;
-    margin-top: 40px;
-    margin-left: 120px;
     background-image: url(../images/calling.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100%;
-    position: relative;
+    @include tag-58 ;
+
 }
 .code-8 {
     position: absolute;
@@ -54,15 +48,7 @@
 
 
 .tag-33 {
-    width: 600px;
-    height: 300px;
-    background-color: rgb(193, 195, 197);
-    border: 2px solid;
-    padding: 25px;
-    font-size: 17px;
-    resize: none;
-    border-radius: 10px;
-
+    @include tag-59 ;
     
 }
 .tag-32 {
@@ -237,11 +223,16 @@ input[type=text] {
 
 }
 @media (max-width: 480px) {
+    #image11 {
+        position: absolute;
+        left: 380px;
+    }
     .code-7 {
         margin-left: 5px;
         width: 400px;
         height: 270px;
     }
+
     .code-8 {
         font-size: 40px;
         left: 130px;
@@ -261,6 +252,7 @@ input[type=text] {
         width: 150px;
         height: 50px;
     }
+
     .tag-34 {
         left: 220px;
     }

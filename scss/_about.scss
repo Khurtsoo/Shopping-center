@@ -1,13 +1,7 @@
 .tag-11 {
-    width: 1300px;
-    height: 500px;
-    margin-top: 40px;
-    margin-left: 120px;
+   
     background-image: url(../images/clothingstore1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100%;
-    position: relative;
+    @include tag-54 ;
 }
 .tag-12 {
     position: absolute;
@@ -20,16 +14,11 @@
     font-size: 60px;
     margin-top: 20px;
     margin-left: 330px;
-    font-family: 'Kanit', sans-serif;
+    @extend %main-styles;
 }
 .tag-14 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    position: relative;
- 
+    @include tag-55 ;
     min-height: 400px;
-  
 }
 .photo-4 {
     width: 300px;
@@ -81,6 +70,10 @@
         width: 400px;
         height: 250px;
         margin-left: 0px;
+    }
+    #image11 {
+        position: absolute;
+        left: 380px;
     }
     .tag-12 {
         left: 125px;
