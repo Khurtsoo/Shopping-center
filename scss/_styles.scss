@@ -5,18 +5,17 @@ body {
 .must:hover  {
     transform: translateY(3px);
 }
-
+#image11 {
+    display: none;
+}
 
 .tag-1 {
     width: 1000px;
     display: flex;
     justify-content: space-around;
     a {
-        font-size: 30px;
-        color: black;
-        cursor: pointer;
-        text-decoration: none; 
-        font-family: 'Whisper', cursive;
+        @include tag-50 ;
+        @extend %main-styles2;
     }
 }
 #product {
@@ -49,19 +48,12 @@ img {
     height: 450px;
 }
 .tag-3 {
-    font-size: 50px;
-    position: absolute;
-    top: 120px;
-    left: 980px;
-    font-family: 'Whisper', cursive;
+    @include tag-51 ;
+    @extend %main-styles2;
 }
 .tag-4 {
-    font-size: 35px;
-    position: absolute;
-    top: 240px;
-    left: 950px;
-    width: 500px;
-    font-family: 'Whisper', cursive;
+    @include tag-52 ;
+    @extend %main-styles2;
 }
 
 .tag-5 {
@@ -107,14 +99,7 @@ img {
 
 }
 #clothe {
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
-    cursor: pointer;
-    position: absolute;
-    left: 290px;
-    bottom: 10px;
-    background: linear-gradient(90deg, rgba(38,222,41,1) 18%, rgba(31,211,41,1) 45%, rgba(33,255,0,1) 100%);
+    @include tag-53 ;
 }
 footer {
     width: 100%;
@@ -185,11 +170,14 @@ li{
 #clothe:hover {
     background-color: rgb(7, 61, 7);
 }
+input[type=submit]:hover {
+    background-color: rgb(18, 117, 9)!important;
+}
 
 
 @media (max-width: 1024px) {
     i {
-        position: absolute;
+      
         top: 80px;
         font-size: 18px;
     } 
@@ -222,6 +210,7 @@ li{
     #carouselExampleIndicators {
         margin-left: 20px;
     }
+
     #code-1 {
         margin-left: -35px;
     }
@@ -252,7 +241,7 @@ li{
         margin-left: -25px;
 
     }
-
+   
     #product {
         width: 100px;
     }
@@ -292,6 +281,9 @@ li{
 @media (max-width: 480px) {
     .tag {
         display: block;
+    }
+    #image11 {
+        display: inline;
     }
     #product {
         width: 200px;
@@ -338,6 +330,10 @@ li{
     .tag-10 {
         width: 185px;
         left: 200px;
+    }
+    #image11 {
+        position: absolute;
+        left: 380px;
     }
 
 }
