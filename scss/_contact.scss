@@ -1,32 +1,36 @@
 .code-5 {
-    position: relative;
+    display: flex;
     width: 100%;
-    min-height: 350px
+    min-height: 350px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
 
 .tag-17 {
-    position: absolute;
+ 
     font-size: 90px;
-    top: 20px;
-    left: 130px;
+    margin-top: 20px;
+    margin-left: 130px;
 }
 .code-6 {
     position: relative;
+    width: 400px;
+    height: 350px;
 }
 
 .tag-18 {
     position: absolute;
     font-size: 50px;
-    top: 140px;
     left: 100px;
+    top: 30px;
 }
 .tag-19 {
     position: absolute;
     font-size: 30px;
-    width: 400px;
-    top: 250px;
+    width: 300px;
+    top: 150px;
     left: 100px;
 }
 .code-7 {
@@ -48,9 +52,7 @@
     font-size: 50px;
 }
 
-.tag-32 {
-    margin-top: 30px;
-}
+
 .tag-33 {
     width: 600px;
     height: 300px;
@@ -66,16 +68,22 @@
 .tag-32 {
     display: inline-block;
     position: relative;
-    width: 100%;
+    width: 1000px;
     height: 400px;
-    margin-left: 100px;
+    left: 250px;
+    top: 30px;
+  
 }
 
 .tag-33 {
     position: absolute;
     left: 30px;
-}
 
+}
+.tag-40 {
+    position: absolute;
+    left: 30px;
+}
 
 .tag-34 {
     width: 200px;
@@ -97,43 +105,70 @@
 .tag-20 {
     font-size: 50px;
     position: absolute;
-    left: 600px;
-    top: 140px;
+    left: 100px;
+    top: 30px;
 }
 .tag-21 {
     position: absolute;
-    top: 190px;
-    left: 600px;
+    top: 150px;
+    left: 100px;
     font-size: 30px;
 }
 .tag-22 {
     font-size: 25px;
     width: 350px;
     position: absolute;
-    left: 600px;
-    top: 250px;
+    left: 100px;
+    top: 200px;
 }
 .tag-23 {
     font-size: 25px;
     width: 350px;
     position: absolute;
-    left: 600px;
-    top: 310px;
+    left: 100px;
+    top: 260px;
 }
 .tag-24 {
     font-size: 50px;
     position: absolute;
-    left: 1100px;
-    top: 140px;
+    left: 100px;
+    top: 30px;
 }
 .tag-25 {
     width: 350px;
     font-size: 25px;
     position: absolute;
-    left: 1100px;
-    top: 240px;
+    left: 100px;
+    top: 150px;
 }
 
+input[type=submit]:hover {
+    background-color: rgb(18, 117, 9);
+}
+input[type=submit] {
+    background-color: rgb(21, 199, 21);
+    
+    width: 300px;
+    height: 59px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 60px;
+}
+textarea:hover {
+    background-color: rgb(71, 68, 68);
+}
+input[type=text]:hover {
+    background-color: rgba(85, 81, 81, 0.692);
+}
+input[type=text] {
+  
+    width: 370px;
+    height: 59px;
+    background-color: rgb(193, 195, 197);
+    padding: 21px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 @media (max-width: 1024px){
     .code-7 {
         width: 800px;
@@ -143,5 +178,119 @@
     .code-8 {
         left: 310px;
         top: 190px
+    }
+
+    .tag-32 {
+        width: 900px;
+        height:300px;
+        left: 30px;
+    }
+    .tag-33 {
+        width: 450px;
+        height: 250px;
+        left: 30px;
+    }
+    .tag-34 {
+        left: 500px;
+    }
+    input[type=text] {
+        margin-bottom: 5px;
+    }
+    input[type=submit] {
+        margin-top: 30px;
+    }
+    .tag-17 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .code-7 {
+        margin-left: 20px;
+        width: 660px;
+        height: 350px;
+    }
+    .code-8 {
+        left: 250px;
+        top: 150px;
+    }
+    .tag-32 {
+        width: 700px;
+        left: 0px;
+    }
+    .tag-33 {
+        width: 300px;
+        height: 240px;
+    }
+    .tag-34 {
+        left: 350px;
+    }
+    input[type=text] {
+        width: 200px;
+        height: 10px;
+      
+    }
+    .tag-17 {
+        font-size: 45px;
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 480px) {
+    .code-7 {
+        margin-left: 5px;
+        width: 400px;
+        height: 270px;
+    }
+    .code-8 {
+        font-size: 40px;
+        left: 130px;
+        top: 110px
+    }
+    .tag-33 {
+        left: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    input[type=text] {
+        padding: 5px;
+        width: 150px!important;
+        height: 30px!important;
+    }
+    input[type=submit] {
+        width: 150px;
+        height: 50px;
+    }
+    .tag-34 {
+        left: 220px;
+    }
+    .tag-32 {
+        width: 400px;
+        height: 230px
+    }
+    .tag-18 {
+        left: 60px;
+    }
+    .tag-19 {
+        left: 60px;
+    }
+    .tag-20 {
+        left: 60px;
+    }
+    .tag-21 {
+        left: 60px;
+    }
+    .tag-22 {
+        left: 60px;
+    }
+    .tag-23 {
+        left: 60px;
+    }
+    .tag-24 {
+        left: 60px;
+    }
+
+    .tag-25 {
+        left: 60px;
     }
 }
