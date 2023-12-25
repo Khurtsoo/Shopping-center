@@ -1,0 +1,83 @@
+@mixin tag-50 {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none; 
+}
+@mixin tag-51 {
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    left: 980px;
+}
+@mixin tag-52 {
+    font-size: 35px;
+    position: absolute;
+    top: 240px;
+    left: 950px;
+    width: 500px;
+}
+@mixin tag-53 {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 290px;
+    bottom: 10px;
+    background: linear-gradient(90deg, rgba(38,222,41,1) 18%, rgba(31,211,41,1) 45%, rgba(33,255,0,1) 100%);
+}
+@mixin tag-54 {
+    width: 1300px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 120px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    position: relative;
+}
+@mixin tag-55 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+ 
+ 
+}
+
+@mixin tag-56 {
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    left: 980px;
+}
+@mixin tag-57 {
+    font-size: 35px;
+    position: absolute;
+    top: 240px;
+    left: 950px;
+    width: 500px;
+}
+@mixin tag-58 {
+    width: 1300px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 120px;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    position: relative;
+}
+@mixin tag-59 {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(193, 195, 197);
+    border: 2px solid;
+    padding: 25px;
+    font-size: 17px;
+    resize: none;
+    border-radius: 10px;
+}
