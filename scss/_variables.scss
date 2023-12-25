@@ -1,0 +1,13 @@
+$main-font:  black;
+
+%main-styles {
+    color: $main-font;
+    font-family: 'Kanit', sans-serif;
+}
+
+$main-font2: grey;
+
+%main-styles2 {
+    color: $main-font2;
+    font-family: 'Whisper', cursive;
+}
