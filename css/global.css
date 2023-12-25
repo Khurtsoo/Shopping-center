@@ -237,11 +237,42 @@ li {
   margin-top: 25px;
 }
 
+.picture3:hover {
+  transform: translateY(3px);
+}
+
+.picture4:hover {
+  transform: translateY(3px);
+}
+
+.picture5 {
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  left: 620px;
+  top: 60px;
+}
+
+.picture4 {
+  width: 50px;
+  height: 45px;
+}
+
+#clothe:hover {
+  background-color: rgb(7, 61, 7);
+}
+
 @media (max-width: 1024px) {
   i {
     position: absolute;
     top: 80px;
     font-size: 18px;
+  }
+  .picture5 {
+    width: 100px;
+    height: 30px;
+    left: 500px;
+    top: 80px;
   }
   .tag-2 {
     width: 600px;
@@ -294,6 +325,9 @@ li {
   #product {
     width: 100px;
   }
+  .picture5 {
+    left: 250px;
+  }
   .tag-2 {
     width: 400px;
     height: 250px;
@@ -328,6 +362,9 @@ li {
   #product {
     width: 200px;
   }
+  .picture5 {
+    display: none;
+  }
   .tag-1 {
     display: none;
   }
@@ -350,11 +387,11 @@ li {
   .tag-4 {
     left: 235px;
     font-size: 15px;
-    width: 200px;
+    width: 190px;
     top: 180px;
   }
   #carouselExampleIndicators {
-    width: 400px;
+    width: 360px;
     min-height: 200px;
   }
   .tag-8 {
@@ -364,7 +401,7 @@ li {
     left: 100px;
   }
   .tag-10 {
-    width: 200px;
+    width: 185px;
     left: 200px;
   }
 }
@@ -461,34 +498,37 @@ li {
   }
 }
 .code-5 {
-  position: relative;
+  display: flex;
   width: 100%;
   min-height: 350px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .tag-17 {
-  position: absolute;
   font-size: 90px;
-  top: 20px;
-  left: 130px;
+  margin-top: 20px;
+  margin-left: 130px;
 }
 
 .code-6 {
   position: relative;
+  width: 400px;
+  height: 350px;
 }
 
 .tag-18 {
   position: absolute;
   font-size: 50px;
-  top: 140px;
   left: 100px;
+  top: 30px;
 }
 
 .tag-19 {
   position: absolute;
   font-size: 30px;
-  width: 400px;
-  top: 250px;
+  width: 300px;
+  top: 150px;
   left: 100px;
 }
 
@@ -512,10 +552,6 @@ li {
   font-size: 50px;
 }
 
-.tag-32 {
-  margin-top: 30px;
-}
-
 .tag-33 {
   width: 600px;
   height: 300px;
@@ -530,12 +566,18 @@ li {
 .tag-32 {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 1000px;
   height: 400px;
-  margin-left: 100px;
+  left: 250px;
+  top: 30px;
 }
 
 .tag-33 {
+  position: absolute;
+  left: 30px;
+}
+
+.tag-40 {
   position: absolute;
   left: 30px;
 }
@@ -564,14 +606,14 @@ li {
 .tag-20 {
   font-size: 50px;
   position: absolute;
-  left: 600px;
-  top: 140px;
+  left: 100px;
+  top: 30px;
 }
 
 .tag-21 {
   position: absolute;
-  top: 190px;
-  left: 600px;
+  top: 150px;
+  left: 100px;
   font-size: 30px;
 }
 
@@ -579,31 +621,61 @@ li {
   font-size: 25px;
   width: 350px;
   position: absolute;
-  left: 600px;
-  top: 250px;
+  left: 100px;
+  top: 200px;
 }
 
 .tag-23 {
   font-size: 25px;
   width: 350px;
   position: absolute;
-  left: 600px;
-  top: 310px;
+  left: 100px;
+  top: 260px;
 }
 
 .tag-24 {
   font-size: 50px;
   position: absolute;
-  left: 1100px;
-  top: 140px;
+  left: 100px;
+  top: 30px;
 }
 
 .tag-25 {
   width: 350px;
   font-size: 25px;
   position: absolute;
-  left: 1100px;
-  top: 240px;
+  left: 100px;
+  top: 150px;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(18, 117, 9);
+}
+
+input[type=submit] {
+  background-color: rgb(21, 199, 21);
+  width: 300px;
+  height: 59px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+textarea:hover {
+  background-color: rgb(71, 68, 68);
+}
+
+input[type=text]:hover {
+  background-color: rgba(85, 81, 81, 0.692);
+}
+
+input[type=text] {
+  width: 370px;
+  height: 59px;
+  background-color: rgb(193, 195, 197);
+  padding: 21px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -616,6 +688,115 @@ li {
     left: 310px;
     top: 190px;
   }
+  .tag-32 {
+    width: 900px;
+    height: 300px;
+    left: 30px;
+  }
+  .tag-33 {
+    width: 450px;
+    height: 250px;
+    left: 30px;
+  }
+  .tag-34 {
+    left: 500px;
+  }
+  input[type=text] {
+    margin-bottom: 5px;
+  }
+  input[type=submit] {
+    margin-top: 30px;
+  }
+  .tag-17 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .code-7 {
+    margin-left: 20px;
+    width: 660px;
+    height: 350px;
+  }
+  .code-8 {
+    left: 250px;
+    top: 150px;
+  }
+  .tag-32 {
+    width: 700px;
+    left: 0px;
+  }
+  .tag-33 {
+    width: 300px;
+    height: 240px;
+  }
+  .tag-34 {
+    left: 350px;
+  }
+  input[type=text] {
+    width: 200px;
+    height: 10px;
+  }
+  .tag-17 {
+    font-size: 45px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .code-7 {
+    margin-left: 5px;
+    width: 400px;
+    height: 270px;
+  }
+  .code-8 {
+    font-size: 40px;
+    left: 130px;
+    top: 110px;
+  }
+  .tag-33 {
+    left: 0px;
+    width: 200px;
+    height: 200px;
+  }
+  input[type=text] {
+    padding: 5px;
+    width: 150px !important;
+    height: 30px !important;
+  }
+  input[type=submit] {
+    width: 150px;
+    height: 50px;
+  }
+  .tag-34 {
+    left: 220px;
+  }
+  .tag-32 {
+    width: 400px;
+    height: 230px;
+  }
+  .tag-18 {
+    left: 60px;
+  }
+  .tag-19 {
+    left: 60px;
+  }
+  .tag-20 {
+    left: 60px;
+  }
+  .tag-21 {
+    left: 60px;
+  }
+  .tag-22 {
+    left: 60px;
+  }
+  .tag-23 {
+    left: 60px;
+  }
+  .tag-24 {
+    left: 60px;
+  }
+  .tag-25 {
+    left: 60px;
+  }
 }
 .code-9 {
   position: relative;
@@ -623,11 +804,11 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 50px;
-  height: 520px;
+  min-height: 520px;
 }
 .code-9 .code-10 {
   width: 300px;
-  height: 250px;
+  height: 530px;
 }
 .code-9 .code-10 .picture3 {
   width: 300px;
@@ -671,6 +852,22 @@ li {
   font-size: 25px;
 }
 
+@media (max-width: 1024px) {
+  .tag-28 {
+    margin-left: 70px;
+  }
+  .tag-29 {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .code-11 {
+    justify-content: center;
+  }
+  .tag-28 {
+    font-size: 70px;
+  }
+}
 .code-13 {
   width: 900px;
   height: 500px;
