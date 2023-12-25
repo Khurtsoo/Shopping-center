@@ -60,12 +60,26 @@ a {
   box-sizing: border-box;
 }
 
+.code-11 .code-12 .tag-31, .code-11 .code-12 .tag-30, .code-9 .code-10 .tag-27, .code-9 .code-10 .tag-26, .tag-13 {
+  color: black;
+  font-family: "Kanit", sans-serif;
+}
+
+.code-15, .code-14, .tag-4, .tag-3, .tag-1 a {
+  color: grey;
+  font-family: "Whisper", cursive;
+}
+
 body {
   padding: 30px;
 }
 
 .must:hover {
   transform: translateY(3px);
+}
+
+#image11 {
+  display: none;
 }
 
 .tag-1 {
@@ -78,7 +92,6 @@ body {
   color: black;
   cursor: pointer;
   text-decoration: none;
-  font-family: "Whisper", cursive;
 }
 
 #product {
@@ -119,7 +132,6 @@ img {
   position: absolute;
   top: 120px;
   left: 980px;
-  font-family: "Whisper", cursive;
 }
 
 .tag-4 {
@@ -128,7 +140,6 @@ img {
   top: 240px;
   left: 950px;
   width: 500px;
-  font-family: "Whisper", cursive;
 }
 
 .tag-5 {
@@ -262,9 +273,12 @@ li {
   background-color: rgb(7, 61, 7);
 }
 
+input[type=submit]:hover {
+  background-color: rgb(18, 117, 9) !important;
+}
+
 @media (max-width: 1024px) {
   i {
-    position: absolute;
     top: 80px;
     font-size: 18px;
   }
@@ -359,6 +373,9 @@ li {
   .tag {
     display: block;
   }
+  #image11 {
+    display: inline;
+  }
   #product {
     width: 200px;
   }
@@ -404,13 +421,17 @@ li {
     width: 185px;
     left: 200px;
   }
+  #image11 {
+    position: absolute;
+    left: 380px;
+  }
 }
 .tag-11 {
+  background-image: url(../images/clothingstore1.jpg);
   width: 1300px;
   height: 500px;
   margin-top: 40px;
   margin-left: 120px;
-  background-image: url(../images/clothingstore1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -429,7 +450,6 @@ li {
   font-size: 60px;
   margin-top: 20px;
   margin-left: 330px;
-  font-family: "Kanit", sans-serif;
 }
 
 .tag-14 {
@@ -487,6 +507,10 @@ li {
     height: 250px;
     margin-left: 0px;
   }
+  #image11 {
+    position: absolute;
+    left: 380px;
+  }
   .tag-12 {
     left: 125px;
     top: 110px;
@@ -533,11 +557,11 @@ li {
 }
 
 .code-7 {
+  background-image: url(../images/calling.webp);
   width: 1300px;
   height: 600px;
   margin-top: 40px;
   margin-left: 120px;
-  background-image: url(../images/calling.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -742,6 +766,10 @@ input[type=text] {
   }
 }
 @media (max-width: 480px) {
+  #image11 {
+    position: absolute;
+    left: 380px;
+  }
   .code-7 {
     margin-left: 5px;
     width: 400px;
@@ -799,10 +827,10 @@ input[type=text] {
   }
 }
 .code-9 {
-  position: relative;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: relative;
   margin-top: 50px;
   min-height: 520px;
 }
@@ -834,10 +862,10 @@ input[type=text] {
 }
 
 .code-11 {
-  position: relative;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: relative;
   margin-top: 50px;
 }
 .code-11 .code-12 {
@@ -866,6 +894,12 @@ input[type=text] {
   }
   .tag-28 {
     font-size: 70px;
+  }
+}
+@media (max-width: 480px) {
+  #image11 {
+    position: absolute;
+    left: 380px;
   }
 }
 .code-13 {
@@ -938,6 +972,10 @@ input[type=text] {
   .code-14 {
     font-size: 25px;
     left: 250px;
+  }
+  #image11 {
+    position: absolute;
+    left: 380px;
   }
   .code-15 {
     left: 250px;
