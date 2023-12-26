@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -57,7 +64,8 @@ a {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .code-11 .code-12 .tag-31, .code-11 .code-12 .tag-30, .code-9 .code-10 .tag-27, .code-9 .code-10 .tag-26, .tag-13 {
@@ -75,7 +83,9 @@ body {
 }
 
 .must:hover {
-  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+      -ms-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 #image11 {
@@ -84,8 +94,11 @@ body {
 
 .tag-1 {
   width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .tag-1 a {
   font-size: 30px;
@@ -111,9 +124,13 @@ body {
 }
 
 .tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .tag-2 {
@@ -143,9 +160,14 @@ img {
 }
 
 .tag-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .tag-6 {
@@ -188,11 +210,15 @@ img {
   position: absolute;
   left: 290px;
   bottom: 10px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, rgb(38, 222, 41)), color-stop(45%, rgb(31, 211, 41)), to(rgb(33, 255, 0)));
+  background: -o-linear-gradient(left, rgb(38, 222, 41) 18%, rgb(31, 211, 41) 45%, rgb(33, 255, 0) 100%);
   background: linear-gradient(90deg, rgb(38, 222, 41) 18%, rgb(31, 211, 41) 45%, rgb(33, 255, 0) 100%);
 }
 
 #clothe:hover {
-  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+      -ms-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 footer {
@@ -253,11 +279,15 @@ li {
 }
 
 .picture3:hover {
-  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+      -ms-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 .picture4:hover {
-  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+      -ms-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 .picture5 {
@@ -457,9 +487,13 @@ input[type=submit]:hover {
 }
 
 .tag-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
   min-height: 400px;
 }
@@ -526,11 +560,15 @@ input[type=submit]:hover {
   }
 }
 .code-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   min-height: 350px;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .tag-17 {
@@ -831,9 +869,13 @@ input[type=text] {
   }
 }
 .code-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
   margin-top: 50px;
   min-height: 520px;
@@ -866,9 +908,13 @@ input[type=text] {
 }
 
 .code-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
   margin-top: 50px;
 }
@@ -894,7 +940,9 @@ input[type=text] {
 }
 @media (max-width: 768px) {
   .code-11 {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .tag-28 {
     font-size: 70px;
